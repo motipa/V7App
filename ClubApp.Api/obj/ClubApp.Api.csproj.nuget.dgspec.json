@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Api\\ClubApp.Api.csproj": {}
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Api\\ClubApp.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Api\\ClubApp.Api.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Api\\ClubApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Api\\ClubApp.Api.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Api\\ClubApp.Api.csproj",
         "projectName": "ClubApp.Api",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Api\\ClubApp.Api.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Api\\ClubApp.Api.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Api\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Logic\\ClubApp.Logic.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Logic\\ClubApp.Logic.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Logic\\ClubApp.Logic.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Logic\\ClubApp.Logic.csproj"
               },
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj"
               }
             }
           }
@@ -116,14 +116,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj",
         "projectName": "ClubApp.Common",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -192,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj",
         "projectName": "ClubApp.Data",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -220,8 +220,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj"
               }
             }
           }
@@ -274,14 +274,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Logic\\ClubApp.Logic.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Logic\\ClubApp.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Logic\\ClubApp.Logic.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Logic\\ClubApp.Logic.csproj",
         "projectName": "ClubApp.Logic",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Logic\\ClubApp.Logic.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Logic\\ClubApp.Logic.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Logic\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -302,8 +302,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\ClubApp.Mapper.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\ClubApp.Mapper.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\ClubApp.Mapper.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\ClubApp.Mapper.csproj"
               }
             }
           }
@@ -354,14 +354,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\ClubApp.Mapper.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\ClubApp.Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\ClubApp.Mapper.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\ClubApp.Mapper.csproj",
         "projectName": "ClubApp.Mapper",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\ClubApp.Mapper.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\ClubApp.Mapper.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -382,11 +382,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj"
               },
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj"
               }
             }
           }
@@ -425,14 +425,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj",
         "projectName": "ClubApp.Models.Validation",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models.Validation\\ClubApp.Models.Validation.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models.Validation\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models.Validation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -453,8 +453,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Logic\\ClubApp.Logic.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Logic\\ClubApp.Logic.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Logic\\ClubApp.Logic.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Logic\\ClubApp.Logic.csproj"
               }
             }
           }
@@ -493,14 +493,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj",
         "projectName": "ClubApp.Models",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

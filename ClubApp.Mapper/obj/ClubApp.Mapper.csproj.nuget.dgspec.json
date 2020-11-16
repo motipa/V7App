@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\ClubApp.Mapper.csproj": {}
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\ClubApp.Mapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj",
         "projectName": "ClubApp.Common",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj",
         "projectName": "ClubApp.Data",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -108,8 +108,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj"
               }
             }
           }
@@ -162,14 +162,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\ClubApp.Mapper.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\ClubApp.Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\ClubApp.Mapper.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\ClubApp.Mapper.csproj",
         "projectName": "ClubApp.Mapper",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\ClubApp.Mapper.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\ClubApp.Mapper.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Mapper\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -190,11 +190,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Data\\ClubApp.Data.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Data\\ClubApp.Data.csproj"
               },
-              "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj"
+              "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj": {
+                "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj"
               }
             }
           }
@@ -233,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj",
         "projectName": "ClubApp.Models",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

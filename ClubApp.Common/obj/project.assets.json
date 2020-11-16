@@ -1349,11 +1349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj",
+      "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj",
       "projectName": "ClubApp.Common",
-      "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\ClubApp.Common.csproj",
+      "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\ClubApp.Common.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Common\\obj\\",
+      "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

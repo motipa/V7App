@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj": {}
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj": {
+    "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj",
+        "projectUniqueName": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj",
         "projectName": "ClubApp.Models",
-        "projectPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\ClubApp.Models.csproj",
+        "projectPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\ClubApp.Models.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\Workspaces\\ClubApp\\ClubApp\\ClubApp.Models\\obj\\",
+        "outputPath": "E:\\ClubApp_Git\\V7App\\ClubApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

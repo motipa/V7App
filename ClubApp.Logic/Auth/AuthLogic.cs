@@ -26,8 +26,7 @@ namespace ClubApp.Logic.Auth
         public AuthLogic(DatabaseContext db, IMapper mapper, IHasher hasher, IRandomizer randomizer, IConfiguration config) : base(db, mapper,config)
         {
             _hasher = hasher;
-            _randomizer = randomizer;
-            
+            _randomizer = randomizer;           
           
         }
 
@@ -35,7 +34,7 @@ namespace ClubApp.Logic.Auth
         {
             if (model.AuthorizationType == _config["AuthorizationType:CredentialsType"])
             {
-                string res = await _hasher.HashAsync(model.Password);
+                //string res = await _hasher.HashAsync(model.Password);
                 return await AuthorizeBasedOnCredentialsAsync(model.Login, model.Password, model.ApplicationId.Value, model.TenantId, model.Client, model.ClientSecret);
             }
             else if (model.AuthorizationType == _config["AuthorizationType:RefreshTokenType"])
