@@ -36,4 +36,3 @@ E:\ClubApp_Git\V7App\ClubApp.Models\obj\Debug\netcoreapp3.1\ClubApp.Models.cspro
 E:\ClubApp_Git\V7App\ClubApp.Models\obj\Debug\netcoreapp3.1\ClubApp.Models.dll
 E:\ClubApp_Git\V7App\ClubApp.Models\obj\Debug\netcoreapp3.1\ClubApp.Models.pdb
 E:\ClubApp_Git\V7App\ClubApp.Models\obj\Debug\netcoreapp3.1\ClubApp.Models.genruntimeconfig.cache
-E:\ClubApp_Git\V7App\ClubApp.Models\obj\Debug\netcoreapp3.1\ClubApp.Models.csprojAssemblyReference.cache

@@ -232,14 +232,14 @@ C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Api\obj\Debug\netcoreapp
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.dll
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.pdb
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.genruntimeconfig.cache
-E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
-E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\appsettings.json
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Common.exe
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Data.exe
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Models.exe
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Mapper.exe
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Logic.exe
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Models.Validation.exe
+E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\appsettings.json
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Api.exe
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Api.deps.json
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Api.runtimeconfig.json

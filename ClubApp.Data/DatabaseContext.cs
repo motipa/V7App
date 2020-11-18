@@ -29,8 +29,12 @@ namespace ClubApp.Data
         public DbSet<UserInvitation> UserInvitations { get; set; }
 
         public DbSet<UserPasswordReset> UserPasswordResets { get; set; }
-
-        public DbSet<UserTenantApplicationRole> UserTenantApplicationRoles { get; set; }
+        
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Guest> Guests { get; set; }
+        public DbSet<TableBookingDetails> TableBookigDetails { get; set; }
+        public DbSet<VenueDetails> VenueDetails { get; set; }
+        public DbSet<PaymentDetails> paymentDetails { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -118,7 +118,6 @@ E:\ClubApp_Git\V7App\ClubApp.Common\bin\Debug\netcoreapp3.1\System.Security.Cryp
 E:\ClubApp_Git\V7App\ClubApp.Common\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Xml.dll
 E:\ClubApp_Git\V7App\ClubApp.Common\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 E:\ClubApp_Git\V7App\ClubApp.Common\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
-E:\ClubApp_Git\V7App\ClubApp.Common\obj\Debug\netcoreapp3.1\ClubApp.Common.csprojAssemblyReference.cache
 E:\ClubApp_Git\V7App\ClubApp.Common\obj\Debug\netcoreapp3.1\ClubApp.Common.AssemblyInfoInputs.cache
 E:\ClubApp_Git\V7App\ClubApp.Common\obj\Debug\netcoreapp3.1\ClubApp.Common.AssemblyInfo.cs
 E:\ClubApp_Git\V7App\ClubApp.Common\obj\Debug\netcoreapp3.1\ClubApp.Common.csproj.CoreCompileInputs.cache

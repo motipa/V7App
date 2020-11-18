@@ -16,12 +16,12 @@ namespace ClubApp.Logic.Login
     public class RegAndLogin : LogicBase, IRegAndLogin
     {
         private readonly IHasher _hasher;
-        private readonly IRandomizer _randomizer;
+        //private readonly IRandomizer _randomizer;
 
-        public RegAndLogin(DatabaseContext db, IMapper mapper, IHasher hasher, IRandomizer randomizer, IConfiguration config) :base(db,mapper,config)
+        public RegAndLogin(DatabaseContext db, IMapper mapper, IHasher hasher, IConfiguration config) :base(db,mapper,config)
         {
             _hasher = hasher;
-            _randomizer = randomizer;
+           // _randomizer = randomizer;
         }
 
         public async Task<UserViewModel> UserRegistration(UserRegModel Reg)

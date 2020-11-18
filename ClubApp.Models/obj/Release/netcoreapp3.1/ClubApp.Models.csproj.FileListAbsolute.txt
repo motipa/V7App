@@ -1,0 +1,13 @@
+E:\ClubApp_Git\V7App\ClubApp.Models\bin\Release\netcoreapp3.1\ClubApp.Models.exe
+E:\ClubApp_Git\V7App\ClubApp.Models\bin\Release\netcoreapp3.1\ClubApp.Models.deps.json
+E:\ClubApp_Git\V7App\ClubApp.Models\bin\Release\netcoreapp3.1\ClubApp.Models.runtimeconfig.json
+E:\ClubApp_Git\V7App\ClubApp.Models\bin\Release\netcoreapp3.1\ClubApp.Models.runtimeconfig.dev.json
+E:\ClubApp_Git\V7App\ClubApp.Models\bin\Release\netcoreapp3.1\ClubApp.Models.dll
+E:\ClubApp_Git\V7App\ClubApp.Models\bin\Release\netcoreapp3.1\ClubApp.Models.pdb
+E:\ClubApp_Git\V7App\ClubApp.Models\obj\Release\netcoreapp3.1\ClubApp.Models.csprojAssemblyReference.cache
+E:\ClubApp_Git\V7App\ClubApp.Models\obj\Release\netcoreapp3.1\ClubApp.Models.AssemblyInfoInputs.cache
+E:\ClubApp_Git\V7App\ClubApp.Models\obj\Release\netcoreapp3.1\ClubApp.Models.AssemblyInfo.cs
+E:\ClubApp_Git\V7App\ClubApp.Models\obj\Release\netcoreapp3.1\ClubApp.Models.csproj.CoreCompileInputs.cache
+E:\ClubApp_Git\V7App\ClubApp.Models\obj\Release\netcoreapp3.1\ClubApp.Models.dll
+E:\ClubApp_Git\V7App\ClubApp.Models\obj\Release\netcoreapp3.1\ClubApp.Models.pdb
+E:\ClubApp_Git\V7App\ClubApp.Models\obj\Release\netcoreapp3.1\ClubApp.Models.genruntimeconfig.cache
