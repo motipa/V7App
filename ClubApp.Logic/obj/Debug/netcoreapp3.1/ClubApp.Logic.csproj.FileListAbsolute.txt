@@ -228,6 +228,10 @@ C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Logic\obj\Debug\netcorea
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.dll
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.pdb
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.genruntimeconfig.cache
+E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.csprojAssemblyReference.cache
+E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.AssemblyInfoInputs.cache
+E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.AssemblyInfo.cs
+E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.csproj.CoreCompileInputs.cache
 E:\ClubApp_Git\V7App\ClubApp.Logic\bin\Debug\netcoreapp3.1\ClubApp.Common.exe
 E:\ClubApp_Git\V7App\ClubApp.Logic\bin\Debug\netcoreapp3.1\ClubApp.Data.exe
 E:\ClubApp_Git\V7App\ClubApp.Logic\bin\Debug\netcoreapp3.1\ClubApp.Models.exe
@@ -335,10 +339,6 @@ E:\ClubApp_Git\V7App\ClubApp.Logic\bin\Debug\netcoreapp3.1\ClubApp.Mapper.pdb
 E:\ClubApp_Git\V7App\ClubApp.Logic\bin\Debug\netcoreapp3.1\ClubApp.Common.pdb
 E:\ClubApp_Git\V7App\ClubApp.Logic\bin\Debug\netcoreapp3.1\ClubApp.Data.pdb
 E:\ClubApp_Git\V7App\ClubApp.Logic\bin\Debug\netcoreapp3.1\ClubApp.Models.pdb
-E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.csprojAssemblyReference.cache
-E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.AssemblyInfoInputs.cache
-E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.AssemblyInfo.cs
-E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.csproj.CoreCompileInputs.cache
 E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.csproj.CopyComplete
 E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.dll
 E:\ClubApp_Git\V7App\ClubApp.Logic\obj\Debug\netcoreapp3.1\ClubApp.Logic.pdb

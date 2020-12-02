@@ -26,25 +26,32 @@ namespace ClubApp.Logic.Payment
 
         public async Task<PaymentViewModel> SavePayementDetails(PaymentModel payment)
         {
-            if(payment.PaymentReferenceId!=null)
+            try
             {
-                PaymentDetails saveDetails = _mapper.Map<PaymentDetails>(payment);
-                await _db.paymentDetails.AddAsync(saveDetails);
-                await _db.SaveChangesAsync();
-                if(saveDetails.Status=="success")
-                {                    
-                    TableBookingDetails objModel = new TableBookingDetails();
-                    objModel = _db.TableBookigDetails.Find(saveDetails.BookingId);                    
-                    objModel.Id = saveDetails.BookingId;
-                    objModel.PaymentStatus = "SUCCESS";                   
-                    _db.Entry(objModel).State = EntityState.Modified;
-                    _db.SaveChanges();
+                if (payment.PaymentReferenceId != null)
+                {
+                    PaymentDetails saveDetails = _mapper.Map<PaymentDetails>(payment);
+                    await _db.paymentDetails.AddAsync(saveDetails);
+                    await _db.SaveChangesAsync();
+                    if (saveDetails.Status == "success")
+                    {
+                        TableBookingDetails objModel = new TableBookingDetails();
+                        objModel = _db.TableBookigDetails.Find(saveDetails.BookingId);
+                        objModel.Id = saveDetails.BookingId;
+                        objModel.PaymentStatus = "SUCCESS";
+                        _db.Entry(objModel).State = EntityState.Modified;
+                        _db.SaveChanges();
+                    }
+                    return new PaymentViewModel { PaymentReferenceId = saveDetails.PaymentReferenceId };
                 }
-                return new PaymentViewModel {PaymentReferenceId=saveDetails.PaymentReferenceId };
+                else
+                {
+                    return new PaymentViewModel { Exception = "Registration Failed" };
+                }
             }
-            else
-            {   
-                    throw new ConsoleCommonException("Registration Failed");
+            catch(Exception ex)
+            {
+                return new PaymentViewModel { Exception = ex.Message };
             }
         }
     }

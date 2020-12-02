@@ -9,5 +9,7 @@ namespace ClubApp.Logic.Customer
    public interface ICustomerReg
     {
         Task<CustomerViewModel> AddCustomer(CustomerModel model);
+        
+
     }
 }

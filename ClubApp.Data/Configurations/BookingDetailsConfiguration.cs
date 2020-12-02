@@ -20,6 +20,7 @@ namespace ClubApp.Data.Configurations
             builder.Property(attribute => attribute.TableNum).IsRequired();
             builder.Property(attribute => attribute.PaymentStatus).HasMaxLength(20).HasDefaultValue("PENDING")
                 .IsRequired();
+            builder.Property(attribute => attribute.CreateDate).HasDefaultValue(DateTime.Now);
 
         }
     }

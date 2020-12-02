@@ -31,91 +31,114 @@ namespace ClubApp.Logic.Auth
         }
 
         public async Task<AuthorizationResponseModel> AuthorizeAsync(AuthorizationModel model)
-        {
-            if (model.AuthorizationType == _config["AuthorizationType:CredentialsType"])
+         {
+            try
             {
-                //string res = await _hasher.HashAsync(model.Password);
-                return await AuthorizeBasedOnCredentialsAsync(model.Login, model.Password, model.ApplicationId.Value, model.TenantId, model.Client, model.ClientSecret);
+                if (model.AuthorizationType == _config["AuthorizationType:CredentialsType"])
+                {
+                    string res = await _hasher.HashAsync(model.Password);
+                    return await AuthorizeBasedOnCredentialsAsync(model.Login, model.Password, model.ApplicationId.Value, model.TenantId, model.Client, model.ClientSecret);
+                }
+                else if (model.AuthorizationType == _config["AuthorizationType:RefreshTokenType"])
+                {
+                    //  return await AuthorizeBasedOnRefreshTokenAsync(model.RefreshToken);
+                    return null;
+                }
+
+                else
+                {
+                    return new AuthorizationResponseModel { Exception = "Invalid authorization type" };
+                }
             }
-            else if (model.AuthorizationType == _config["AuthorizationType:RefreshTokenType"])
+            catch(Exception ex)
             {
-                //  return await AuthorizeBasedOnRefreshTokenAsync(model.RefreshToken);
-                return null;
-            }
-           
-            else
-            {
-                throw new ConsoleCommonException("Invalid authorization type");
+                return new AuthorizationResponseModel { Exception = ex.Message };
             }
         }
 
         private async Task<AuthorizationResponseModel> AuthorizeBasedOnCredentialsAsync(string login, string password, Guid applicationId, Guid? tenantId, string client, string clientSecret)
         {
-            var user = await _db.Users
-                .Include(u => u.UserAttribute)
-               
-                .SingleOrDefaultAsync(u => u.Email == login);
-
-            if (user == null)
+            try
             {
-                throw new ConsoleNotFoundException("Account with the specified email address was not found");
-            }
+                var user = await _db.Users
+                    .Include(u => u.UserAttribute)
 
-            if (!user.IsVerified)
-            {
-                throw new ConsoleNotAllowedException("Account was not verified");
-            }
+                    .SingleOrDefaultAsync(u => u.Email == login);
 
-            if (!await _hasher.VerifyAsync(password, user.UserAttribute.PasswordHash))
-            {
-                throw new ConsoleNotFoundException("Account with the specified password was not found");
-            }
-
-
-            var apiClient = await _db.ApiClients
-                .SingleOrDefaultAsync(c => c.Name == client);
-
-            if (apiClient == null)
-            {
-                throw new ConsoleNotFoundException("Api client with provided name was not found");
-            }
-
-            if (apiClient.IsSecured)
-            {
-                if (apiClient.Secret != clientSecret)
+                if (user == null)
                 {
-                    throw new ConsoleNotFoundException("Api client with provided secret was not found");
+                    return new AuthorizationResponseModel { Exception = "Account with the specified email address was not found" };
+                    
                 }
+
+                if (!user.IsVerified)
+                {
+                    throw new ConsoleNotAllowedException("Account was not verified");
+                }
+
+                if (!await _hasher.VerifyAsync(password, user.UserAttribute.PasswordHash))
+                {
+                    throw new ConsoleNotFoundException("Account with the specified password was not found");
+                }
+
+
+                var apiClient = await _db.ApiClients
+                    .SingleOrDefaultAsync(c => c.Name == client);
+
+                if (apiClient == null)
+                {
+
+                    return new AuthorizationResponseModel { Exception = "Api client with provided name was not found" };
+                }
+
+                if (apiClient.IsSecured)
+                {
+                    if (apiClient.Secret != clientSecret)
+                    {
+                        return new AuthorizationResponseModel { Exception = "Api client with provided secret was not found" };
+                    }
+                }
+
+                if (!apiClient.IsActive)
+                {
+                    return new AuthorizationResponseModel { Exception = "Api client is inactive" };
+                }
+
+
+                return new AuthorizationResponseModel
+                {
+                    AccessToken = await GenerateAccesTokenAsync(user, apiClient),
+                    RefreshToken = await GenerateRefreshTokenAsync(user, apiClient)
+                };
             }
-
-            if (!apiClient.IsActive)
+            catch(Exception ex)
             {
-                throw new ConsoleNotAllowedException("Api client is inactive");
+                return new AuthorizationResponseModel { Exception = ex.Message };
             }
-
-
-            return new AuthorizationResponseModel
-            {
-                AccessToken = await GenerateAccesTokenAsync(user, apiClient),
-                RefreshToken = await GenerateRefreshTokenAsync(user, apiClient)
-            };
         }
         private Task<string> GenerateAccesTokenAsync(User join, ApiClient apiClient)
         {
-            return Task.Factory.StartNew(() =>
+            try
             {
-                var now = DateTime.UtcNow;
-                var jwtKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:JwtSecret"]));
+                return Task.Factory.StartNew(() =>
+                {
+                    var now = DateTime.UtcNow;
+                    var jwtKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:JwtSecret"]));
 
-                var jwtToken = new JwtSecurityToken(
-                    issuer: _config["Jwt:JwtIssuer"],
-                    claims: CreateUserClaims(join),
-                    notBefore: now,
-                    expires: now.Add(TimeSpan.FromMinutes(apiClient.AccessTokenLifeTimeMin)),
-                    signingCredentials: new SigningCredentials(jwtKey, SecurityAlgorithms.HmacSha256));
+                    var jwtToken = new JwtSecurityToken(
+                        issuer: _config["Jwt:JwtIssuer"],
+                        claims: CreateUserClaims(join),
+                        notBefore: now,
+                        expires: now.Add(TimeSpan.FromMinutes(apiClient.AccessTokenLifeTimeMin)),
+                        signingCredentials: new SigningCredentials(jwtKey, SecurityAlgorithms.HmacSha256));
 
-                return new JwtSecurityTokenHandler().WriteToken(jwtToken);
-            });
+                    return new JwtSecurityTokenHandler().WriteToken(jwtToken);
+                });
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
         }
         private Claim[] CreateUserClaims(User join)
         {
@@ -127,34 +150,41 @@ namespace ClubApp.Logic.Auth
         }
         private async Task<string> GenerateRefreshTokenAsync(User join, ApiClient apiClient)
         {
-            var refreshToken = await _db.ApiRefreshTokens
-                .SingleOrDefaultAsync(token =>  token.ApiClientId == apiClient.Id);
-
-            if (refreshToken == null)
+            try
             {
-                refreshToken = new ApiRefreshToken()
+                var refreshToken = await _db.ApiRefreshTokens
+                    .SingleOrDefaultAsync(token => token.ApiClientId == apiClient.Id);
+
+                if (refreshToken == null)
                 {
-                  
-                    ApiClientId = apiClient.Id,
-                    IssuedAt = DateTime.UtcNow,
-                    ExpiresAt = DateTime.UtcNow.AddMinutes(apiClient.RefreshTokenLifeTimeMin),
-                    Value = (await _randomizer.GetRandomStringAsync())
-                };
+                    refreshToken = new ApiRefreshToken()
+                    {
 
-                _db.ApiRefreshTokens.Add(refreshToken);
+                        ApiClientId = apiClient.Id,
+                        IssuedAt = DateTime.UtcNow,
+                        ExpiresAt = DateTime.UtcNow.AddMinutes(apiClient.RefreshTokenLifeTimeMin),
+                        Value = (await _randomizer.GetRandomStringAsync())
+                    };
+
+                    _db.ApiRefreshTokens.Add(refreshToken);
+                }
+                else
+                {
+                    refreshToken.IssuedAt = DateTime.UtcNow;
+                    refreshToken.ExpiresAt = DateTime.UtcNow.AddMinutes(apiClient.RefreshTokenLifeTimeMin);
+                    refreshToken.Value = (await _randomizer.GetRandomStringAsync());
+
+                    _db.ApiRefreshTokens.Update(refreshToken);
+                }
+
+                await _db.SaveChangesAsync();
+
+                return refreshToken.Value;
             }
-            else
+            catch(Exception ex)
             {
-                refreshToken.IssuedAt = DateTime.UtcNow;
-                refreshToken.ExpiresAt = DateTime.UtcNow.AddMinutes(apiClient.RefreshTokenLifeTimeMin);
-                refreshToken.Value = (await _randomizer.GetRandomStringAsync());
-
-                _db.ApiRefreshTokens.Update(refreshToken);
+                throw ex;
             }
-
-            await _db.SaveChangesAsync();
-
-            return refreshToken.Value;
         }
 
     }

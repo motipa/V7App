@@ -5,6 +5,7 @@ using ClubApp.Data.Entities;
 using ClubApp.Logic.Common;
 using ClubApp.Logic.Customer;
 using ClubApp.Models.Customer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -33,5 +34,7 @@ namespace ClubApp.Logic.CustomerDetails
                 throw new ConsoleCommonException("Registration Failed");
             }
         }
+
+        
     }
 }

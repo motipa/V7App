@@ -200,8 +200,10 @@ namespace ClubApp.Data.Migrations
                     b.Property<DateTime>("BookingDateTimeTo")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("BookingId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<DateTime>("CreateDate")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2020, 12, 2, 16, 31, 44, 812, DateTimeKind.Local).AddTicks(4817));
 
                     b.Property<Guid>("CustId")
                         .HasColumnType("uniqueidentifier");
@@ -219,8 +221,17 @@ namespace ClubApp.Data.Migrations
                         .HasColumnType("nvarchar(20)")
                         .HasDefaultValue("PENDING");
 
+                    b.Property<string>("Shisha")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SpecialNote")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("TableNum")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Venue")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("VenueId")
@@ -262,6 +273,9 @@ namespace ClubApp.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
                         .HasDefaultValueSql("newsequentialid()");
+
+                    b.Property<string>("ActivationCode")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
                         .IsRequired()

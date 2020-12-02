@@ -14,6 +14,7 @@ namespace ClubApp.Data.Entities
         public string PasswordHash { get; set; }
 
         public Guid UserId { get; set; }
+        public string ActivationCode { get; set; }
 
         public User User { get; set; }
     }

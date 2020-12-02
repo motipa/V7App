@@ -10,5 +10,8 @@ namespace ClubApp.Logic.Login
     {
         Task<UserViewModel> UserRegistration(UserRegModel Reg);
         Task<UserViewModel> UpdateUserDetails(UserRegModel Reg);
+        Task<UserViewModel> GetCustomerDetails(string Email);
+        Task SendActivationCode(string Email);
+        Task<UserViewModel> UpdatePassword(UserRegModel Reg);
     }
 }

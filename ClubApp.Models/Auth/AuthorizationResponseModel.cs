@@ -11,6 +11,7 @@ namespace ClubApp.Models.Auth
         public string AccessToken { get; set; }
 
         public string RefreshToken { get; set; }
+        public string Exception { get; set; }
 
         public bool MultiTenant { get; set; } = false;
 

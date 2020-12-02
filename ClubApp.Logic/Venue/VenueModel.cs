@@ -3,10 +3,13 @@ using ClubApp.Common.Exceptions;
 using ClubApp.Data;
 using ClubApp.Data.Entities;
 using ClubApp.Logic.Common;
+using ClubApp.Models.Common;
 using ClubApp.Models.Venue;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -31,6 +34,23 @@ namespace ClubApp.Logic.Venue
             {
                 throw new ConsoleCommonException("AddVenue Failed");
             }
+        }
+
+        public async Task<List<VenueViewModel>> GetVenue()
+        {
+            var venue = _db.VenueDetails.ToList();
+            return _mapper.Map<List<VenueViewModel>>(venue);           
+        }
+
+        //public async Task<IEnumerable<LookupModel<Guid>>> GetVenueAll()
+        //{
+        //    var venue = _db.VenueDetails.AsNoTracking();
+        //    return _mapper.Map<IEnumerable<LookupModel<Guid>>>(await venue.ToArrayAsync());
+        //} 
+        public async Task<List<PickModel>> GetVenueAll()
+        {
+            var venue = _db.VenueDetails.ToList();
+            return _mapper.Map<List<PickModel>>(venue);
         }
     }
 }

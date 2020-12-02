@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClubApp.Models
+namespace ClubApp.Mapper
 {
     class Program
     {

@@ -232,6 +232,10 @@ C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Api\obj\Debug\netcoreapp
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.dll
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.pdb
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.genruntimeconfig.cache
+E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.AssemblyInfoInputs.cache
+E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.AssemblyInfo.cs
+E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.csproj.CoreCompileInputs.cache
+E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.MvcApplicationPartsAssemblyInfo.cache
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Common.exe
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Data.exe
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Models.exe
@@ -336,11 +340,7 @@ E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Data.pdb
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Mapper.pdb
 E:\ClubApp_Git\V7App\ClubApp.Api\bin\Debug\netcoreapp3.1\ClubApp.Models.pdb
 E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.csprojAssemblyReference.cache
-E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.AssemblyInfoInputs.cache
-E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.AssemblyInfo.cs
-E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.csproj.CoreCompileInputs.cache
 E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.MvcApplicationPartsAssemblyInfo.cs
-E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\ClubApp.Api.MvcApplicationPartsAssemblyInfo.cache
 E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\staticwebassets\ClubApp.Api.StaticWebAssets.Manifest.cache
 E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\staticwebassets\ClubApp.Api.StaticWebAssets.xml
 E:\ClubApp_Git\V7App\ClubApp.Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\ClubApp.Api.styles.css

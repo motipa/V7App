@@ -41,5 +41,23 @@ namespace ClubApp.Api.Controllers
             var resonse = await _regandLogin.UpdateUserDetails(reg);
             return Ok(resonse);
         }
+        [HttpGet("forgotpassword/{Email}")]
+        //[ProducesResponseType(typeof(AssetLastSeenModel), StatusCodes.Status200OK)]       
+        //[ProducesResponseType(typeof(AssetLastSeenModel), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> SendCodeForPasswordReset([FromRoute] string Email)
+        {
+             await _regandLogin.SendActivationCode(Email);
+            return Ok();
+        }
+        [HttpPost("updatepassword")]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status405MethodNotAllowed)]
+        public async Task<IActionResult> UpdatePassword([FromBody] UserRegModel reg)
+        {
+            var res=await _regandLogin.UpdatePassword(reg);
+            return Ok(res);
+        }
     }
 }

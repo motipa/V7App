@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ClubApp.Models.Customer;
+using ClubApp.Models.Email;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,5 +17,10 @@ namespace ClubApp.Models.Booking
         public Guid PaymentId { get; set; }
         public Guid VenueId { get; set; }
         public string PaymentStatus { get; set; }
+        public string SpecialNote { get; set; }
+        public string shisha { get; set; }
+        public string Venue { get; set; }
+        public SendEmail sendEmail { get; set; }
+        public CustomerModel Customer { get; set; }
     }
 }

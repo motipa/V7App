@@ -236,6 +236,9 @@ C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Models.Validation\obj\De
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.dll
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.pdb
 C:\Users\User\source\Workspaces\ClubApp\ClubApp\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.genruntimeconfig.cache
+E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.AssemblyInfoInputs.cache
+E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.AssemblyInfo.cs
+E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.csproj.CoreCompileInputs.cache
 E:\ClubApp_Git\V7App\ClubApp.Models.Validation\bin\Debug\netcoreapp3.1\ClubApp.Common.exe
 E:\ClubApp_Git\V7App\ClubApp.Models.Validation\bin\Debug\netcoreapp3.1\ClubApp.Data.exe
 E:\ClubApp_Git\V7App\ClubApp.Models.Validation\bin\Debug\netcoreapp3.1\ClubApp.Models.exe
@@ -348,9 +351,6 @@ E:\ClubApp_Git\V7App\ClubApp.Models.Validation\bin\Debug\netcoreapp3.1\ClubApp.D
 E:\ClubApp_Git\V7App\ClubApp.Models.Validation\bin\Debug\netcoreapp3.1\ClubApp.Mapper.pdb
 E:\ClubApp_Git\V7App\ClubApp.Models.Validation\bin\Debug\netcoreapp3.1\ClubApp.Models.pdb
 E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.csprojAssemblyReference.cache
-E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.AssemblyInfoInputs.cache
-E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.AssemblyInfo.cs
-E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.csproj.CoreCompileInputs.cache
 E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.csproj.CopyComplete
 E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.dll
 E:\ClubApp_Git\V7App\ClubApp.Models.Validation\obj\Debug\netcoreapp3.1\ClubApp.Models.Validation.pdb

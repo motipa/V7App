@@ -9,5 +9,6 @@ namespace ClubApp.Logic.Booking
     public interface IBookingTable
     {
         Task<BookingViewModel> TableBooking(TableBookingModel table);
+       
     }
 }

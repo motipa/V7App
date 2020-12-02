@@ -18,9 +18,7 @@ namespace ClubApp.Api.Controllers
         public AuthenticationController(IAuthLogic authLogic)
         {
             _authLogic = authLogic;
-           
         }
-
         [AllowAnonymous]
         [HttpPost("authorize")]
         [ProducesResponseType(typeof(AuthorizationResponseModel), StatusCodes.Status200OK)]
@@ -32,6 +30,5 @@ namespace ClubApp.Api.Controllers
             var resonse = await _authLogic.AuthorizeAsync(model);
             return Ok(resonse);
         }
-
     }
 }

@@ -12,5 +12,6 @@ namespace ClubApp.Models.Payment
         public string PaymentType { get; set; }
         public decimal Amount { get; set; }
         public string Status { get; set; }
+        public string Exception { get; set; }
     }
 }

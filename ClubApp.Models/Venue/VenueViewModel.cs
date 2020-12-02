@@ -6,7 +6,7 @@ namespace ClubApp.Models.Venue
 {
     public class VenueViewModel
     {
-        public Guid VenueId { get; set; }
+        public Guid Id { get; set; }
         public string VenueName { get; set; }
         public string VenueAddress { get; set; }
         public string VenuePhone { get; set; }
