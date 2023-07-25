@@ -12,9 +12,9 @@ pipeline {
                    stage('Restore') {
             steps {
 
-                    bat "dotnet restore ${V7App}\\ClubApp.Api.sln"
+                    
 
-                echo 'Restore App'
+                  echo 'Restore App'
                   }
                   }
 
