@@ -2,9 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('clean') {
             steps {
-                echo 'Build App'
+                ech 'clean App'
+              cleanWs()
                   }
                   }
                    stage('Test') {
