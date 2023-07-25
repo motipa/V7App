@@ -8,12 +8,12 @@ pipeline {
               cleanWs()
                   }
                   }
-                   stage('Test') {
+                   stage('checkout') {
             steps {
 
                       git branch: 'master', credentialsId: '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', url: 'https://github.com/motipa/V7App.git'
 
-                echo 'Test App'
+                echo 'checkout App'
                   }
                   }
                    stage('Deploy') {
