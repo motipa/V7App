@@ -16,9 +16,12 @@ pipeline {
                 echo 'checkout App'
                   }
                   }
-                   stage('Deploy') {
+                   stage('Restore') {
             steps {
-                echo 'Deploy App'
+
+                    bat "dotnet restore ${V7App}\\<ClubApp.Api>.sln"
+
+                echo 'Restore App'
                   }
                   }
     }
