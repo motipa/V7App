@@ -24,12 +24,7 @@ pipeline {
                 echo 'Restore App'
                   }
                   }
-stage('Clean') {
-  steps {
-    bat "msbuild.exe ${V7App}\\ClubApp.Api.sln.sln" /nologo /nr:false /p:platform=\"x64\" /p:configuration=\"release\" /t:clean"
-  echo 'clean App'
-  }
-}
+
 
 
 
