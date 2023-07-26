@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Build Stage') {
             steps {
-                bat 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\SimplePipeline\\ClubApp.sln --configuration Release'
+                bat 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\firstpipeline\\ClubApp.sln --configuration Release'
             }
         }
         stage('Test Stage') {
