@@ -12,7 +12,7 @@ pipeline {
                    stage('build') {
             steps {
 
-                   dotnet build V7App/ClubApp.sln 
+                   dotnet build ClubApp.sln 
 
                   echo 'build App'
                   }
