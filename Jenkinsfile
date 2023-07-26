@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('clean') {
             steps {
-                ech 'clean App'
+                echo 'clean App'
               cleanWs()
                   }
                   }
