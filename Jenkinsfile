@@ -9,12 +9,12 @@ pipeline {
                   }
                   }
                  
-                   stage('Restore') {
+                   stage('build') {
             steps {
 
-                    
+                   dotnet build V7App/ClubApp.sln 
 
-                  echo 'Restore App'
+                  echo 'build App'
                   }
                   }
 
