@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+ def mvnHome
     stages {
         stage('clean') {
             steps {
@@ -8,8 +8,8 @@ pipeline {
               cleanWs()
                   }
                   }
-                node { 
-           def mvnHome
+                
+          
     stage('Preparation') { // for display purposes
         // Get some code from a GitHub repository
         git 'https://github.com/motipa/V7App.git'
@@ -28,7 +28,7 @@ pipeline {
             }
         }
     }
-                }
+                
 
 
 
