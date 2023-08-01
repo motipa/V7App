@@ -12,7 +12,9 @@ pipeline {
 
          stage('Build Stage') {
             steps {
-                bat 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\firstpipeline@2\\ClubApp.sln --configuration Release'
+                bat "\"C:/Program Files/dotnet/dotnet.exe\" restore \"${workspace}/ClubApp.sln\""
+                bat "\"C:/Program Files/dotnet/dotnet.exe\" build \"${workspace}/ClubApp.sln\""
+
             }
         }
        
