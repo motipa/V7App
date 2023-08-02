@@ -20,10 +20,10 @@ pipeline {
 
         stage('Deploy Stage') {
             steps {
-                deleteDir()
+                
      sh 'mkdir -p archive'
      sh 'echo test > archive/test.txt'
-     zip archive: true, dir: 'archive', glob: '', zipFile: 'coverage-files.zip'
+     zip archive: true, dir: 'archive', glob: '', zipFile: 'ClubApp.zip'
                 
            
             }
