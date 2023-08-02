@@ -21,8 +21,10 @@ pipeline {
         stage('Deploy Stage') {
             steps {
               script{ zip zipFile: 'ClubApp.Api/obj/Release/netcoreapp3.1/ClubApp.Api.zip', archive: false, dir: 'ClubApp.Api' }  
-         bat "\"C:/Program Files/IIS/Microsoft Web Deploy V3/msdeploy.exe\" -verb=sync -source:package=\"${workspace}/ClubApp.Api/obj/Release/netcoreapp3.1/ClubApp.Api.zip\" -dest:auto -setParam:name=\"IIS Web Application Name\",value=\"jenkinsite\"  -allowUntrusted=true"
 
+                 bat 'net stop "w3svc"'
+                bat '"C:\\Program Files (x86)\\IIS\\Microsoft Web Deploy V3\\msdeploy.exe" -verb:sync -source:package="%WORKSPACE%\\ClubApp.Api\\bin\\Debug\\netcoreapp3.1\\ClubApp.Api.zip" -dest:auto -setParam:"IIS Web Application Name"="jenkinsite" -skip:objectName=filePath,absolutePath=".\\\\PackagDemoeTmp\\\\Web.config$" -enableRule:DoNotDelete -allowUntrusted=true'
+                bat 'net start "w3svc"'
                 
            
             }
