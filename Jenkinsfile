@@ -20,10 +20,12 @@ pipeline {
 
         stage('Deploy Stage') {
             steps {
-               
+                deleteDir()
+     sh 'mkdir -p archive'
+     sh 'echo test > archive/test.txt'
+     zip archive: true, dir: 'archive', glob: '', zipFile: 'coverage-files.zip'
                 
-               bat "\"C:/Program Files/IIS/Microsoft Web Deploy V3/msdeploy.exe\" -verb=sync -source:package=\"${workspace}/ClubApp.Api/obj/Release/netcoreapp3.1/ClubApp.zip\" -dest:auto -setParam:\"IIS Web Application Name\"=\"jenkinsite\"  -allowUntrusted=true"
-
+           
             }
         }
 
